@@ -4,11 +4,21 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.provider.Settings;
+
 import android.util.Log;
 import android.view.View;
+import android.view.Menu;
+import android.view.MenuItem;
+import org.json.JSONObject;
+import io.branch.indexing.BranchUniversalObject;
+import io.branch.referral.Branch;
+import io.branch.referral.BranchError;
+
+import android.net.Uri;
+
+import android.provider.Settings;
+
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
